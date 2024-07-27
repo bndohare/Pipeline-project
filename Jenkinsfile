@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages{
         stage("complile"){
-            void steps() {
+            steps() {
               sh 'javac Testpipe.java'   
             }
            
