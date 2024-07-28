@@ -15,7 +15,9 @@ pipeline {
         }
     }
     post{
-        always
-        sh 'good work'
+        always{
+                sh 'good work'
+        }
+        
     }
 }
