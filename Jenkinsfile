@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage("compile"){
+        stage("Build"){ 
             steps() {
               sh 'javac Testpipe.java'   
             }
