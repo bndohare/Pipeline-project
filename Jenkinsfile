@@ -14,10 +14,10 @@ pipeline {
           
         }
     }
-    post{
-        always{
-                sh 'good work'
-        }
+    // post{
+    //     always{
+    //             sh 'good work'
+    //     }
         
-    }
+    // }
 }
