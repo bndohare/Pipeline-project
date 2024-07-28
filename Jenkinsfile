@@ -14,4 +14,8 @@ pipeline {
           
         }
     }
+    post{
+        always
+        sh 'good work'
+    }
 }
